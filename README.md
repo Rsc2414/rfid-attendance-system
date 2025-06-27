@@ -16,3 +16,38 @@ This project is an IoT-based solution built with Arduino and RFID technology to 
 - Breadboard or PCB
 
 ## ⚡ Circuit Diagram
+
+MFRC522 → Arduino UNO
+SDA → Pin 10
+SCK → Pin 13
+MOSI → Pin 11
+MISO → Pin 12
+IRQ → Not connected
+GND → GND
+RST → Pin 9
+3.3V → 3.3V
+
+
+> 💡 Use the `MFRC522` library in Arduino IDE via Library Manager before uploading.
+
+## 📂 File List
+- `rfid_attendance.ino` – Arduino source code
+- `README.md` – Documentation
+
+## 📸 Sample Output (Serial Monitor)
+
+RFID Attendance System Initialized.
+Scanned UID: DE 4B 3A 91
+Attendance marked ✅
+
+
+## 📄 License
+MIT
+
+---
+
+Feel free to expand the code by:
+- Adding EEPROM to prevent multiple scans in a day
+- Using an SD card or IoT platform like Firebase to log attendance
+
+
