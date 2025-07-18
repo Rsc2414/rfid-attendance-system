@@ -1,4 +1,4 @@
-# RFID-Based College Attendance Systems
+# RFID-Based College Attendance System
 
 ## 📌 Project Overview
 This project is an IoT-based solution built with Arduino and RFID technology to automate student attendance in colleges. It reduces manual errors by 30% and eases administrative work.
